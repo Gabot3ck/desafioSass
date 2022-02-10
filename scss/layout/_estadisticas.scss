@@ -1,0 +1,33 @@
+/*  ESTADISTICAS  */
+.estadisticas{
+	position: relative;
+	top: -10vh;
+	z-index: 990;
+	border: 2px solid $title-footer;
+	border-radius: 8px;
+	max-width: 800px;
+	background-color: white;
+	-webkit-box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+	-moz-box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+	box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+    div{
+        h4{
+            color: #fc00ff;
+        }
+        &:nth-child(2){
+            h4{
+                color: $color-background;
+            }
+        }
+        &:nth-child(3){
+            h4{
+                color: $color-secondary;
+            }
+        }
+        p{
+            margin-left: 15px;
+        }
+    }
+}
+
+/*  FIN  DE  ESTADISTICAS  */

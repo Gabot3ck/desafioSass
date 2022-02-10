@@ -1,0 +1,38 @@
+
+/* M  A  I  N  */
+.promociones{
+	padding: 100px 15px 0;
+	background: $color-background;
+	background: -webkit-linear-gradient(to right, rgba(6,194,204,.6), rgba(0,173,70, .6)) , url(../../images/fondo-promo.jpg);
+	background: linear-gradient(to right, rgba(6,194,204,.6), rgba(0,173,70, .6)) , url(../../images/fondo-promo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 80% 50%;
+    h2{
+        margin-bottom: 1em;
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+    .card{
+        -webkit-box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+        -moz-box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+        box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+    }
+    .card-title{
+        font-size: .6em;
+        font-weight: 500;
+    }
+    .card-text{
+        font-size: .4em;
+        color: rgba(49, 49, 49, 0.8);
+    }
+    .card-body{
+        a{
+            font-size: .4em;
+        }
+    }
+}
+
+
+/*   FIN   DE   MAIN  */

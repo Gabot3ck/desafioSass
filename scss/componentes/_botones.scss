@@ -1,0 +1,70 @@
+/*BOTONES*/
+
+.boton{
+    position: relative;
+	margin-top: 20px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 50px;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all .3s ease;
+        a{
+            font-weight: 600;
+            color: #FFF;
+            transition: all 0.5s;
+        }
+}
+.boton-principal{
+	border: 2px solid $color-background;
+	background-color: $color-background;
+        &:hover{
+            border: 2px solid white ;
+            background-color: transparent;
+        }
+}
+.boton-second{
+	margin: 1.5em auto;
+	width: 10em;
+	border: 2px solid $color-secondary ;
+	font-weight: 600;
+	color: white;
+	background-color: $color-secondary;
+        &:hover{
+            border: 2px solid $color-secondary ;
+            color: $color-secondary;
+            background-color: transparent;
+            letter-spacing: 2px;
+        }
+}
+.btn-whatsapp{
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	z-index: 999;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background-color: transparent !important;
+}
+.fa-whatsapp-square{
+	font-size: 3.6rem;
+	color: $color-secondary;
+}
+.btn-footer{
+	border: none;
+	color: $text-footer;
+	background: transparent;
+        &:hover{
+            color: $color-secondary;
+        }
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-tiktok{
+    color: $color-background;
+    &:hover{
+        color: $color-secondary;
+    }
+}

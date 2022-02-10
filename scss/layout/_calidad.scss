@@ -1,0 +1,75 @@
+
+/* CALIDAD */
+.section{
+	padding: 25px 15px;
+	width: 100%;
+	height: auto;
+}
+
+.calidad {
+    h2{
+        margin: 1em 0;
+        color: rgba(49, 49, 49, 0.6);
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+    .wrapper{
+        >div{
+            margin-bottom: 2.5em;
+        }
+    }
+    .cuerpo__calidad{
+        height: 8em;
+        h3{
+            font-size: .9em;
+            font-weight: 600;
+            color: $color-background;
+            + p{
+                margin-top: .2em;
+                margin-bottom: 1em;
+                font-size: .6em;
+                font-weight: 300;
+                color: $color-background;
+            }
+        }
+        > p{
+            font-size: .4em;
+            color: rgba(49, 49, 49, 0.8);
+        }
+        hr{
+            width: 100%;
+            height: 1px;
+            border: 1px solid rgba(49, 49, 49, 0.9);
+        }
+        a{
+            padding: 0 .7em;
+            border: 2px solid $color-background;
+            font-size: .4em;
+            font-weight: 600;
+            color: $color-copyright;
+            background-color: $color-background;
+            &:hover{
+                border: 2px solid $color-background;
+                font-weight: 600;
+                color: $color-background;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+.img__calidad{
+	border: 1px solid rgba(49, 49, 49, 0.5);
+	padding: .3em;
+	height: 8em;
+	-webkit-box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+	-moz-box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+	box-shadow: 8px 11px 16px 0px rgba(165,177,198,0.8);
+	
+}
+
+.fa-heartbeat{
+	color: var(--color-background);
+}
+
+/* FIN   DE   CALIDAD  */ 

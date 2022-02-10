@@ -1,0 +1,59 @@
+/*RESET*/
+html{
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: $font-texto;
+	font-weight: 500;
+	color: $color-footer;
+}
+
+*,
+::after,
+::before{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0 auto;
+	width: 100vw;
+	background: white;
+	text-rendering: optimizeSpeed;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	-webkit-text-size-adjust: 100%;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+li{
+	list-style: none;
+}
+p{
+	margin-bottom: 0;
+	line-height: 1.3rem;
+}
+
+.titulo__enlaces{
+	margin: 30px 0;
+	text-align: center;
+
+}
+.titulo__enlaces{
+	h2{
+        color: $color-background;
+    }
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 1200px;
+	height: inherit;
+}

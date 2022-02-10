@@ -1,0 +1,54 @@
+/* CLIENTES */
+.clientes{
+	padding: 2rem 0;
+	width: 100vw;
+	background: -webkit-linear-gradient(to top, rgba(6,194,204,.25), rgba(6, 38, 63, .75)) , url(../images/fondo-testimonio.jpg);
+	background: linear-gradient(to top, rgba(6,194,204,.25), rgba(6, 38, 63, .75)) , url(../images/fondo-testimonio.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    h2{
+        color: white;
+        font-weight: 600;
+    }
+    .fa-thumbs-up{
+        margin-left: 1em;
+        color: $color-background;
+    }
+    .card{
+        border: none;
+        background: transparent;
+    }
+}
+
+.card__cliente{
+	padding: .8em;
+	border: 1px solid $color-footer;
+	border-radius: 8px;
+	background-color: white;
+    .name__cliente{
+        margin-left: 1em;
+        font-size: .8em;
+        font-weight: 700;
+    }
+    .card-title{
+        margin-bottom: .6em;
+    }
+    .card-text{
+        margin-top: .8em;
+        padding: 0 .6em;
+        font-size: .5em;
+    }
+    .fa-facebook-f{
+        color: $color-background;
+        font-size: .6em;
+    }
+}
+
+.foto__cliente{
+	border-radius: 5px;
+	width: 60px;
+	height: 60px;
+}
+
+/* FIN   CLIENTES  */
